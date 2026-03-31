@@ -7,16 +7,12 @@
     text-shadow:
     10px 5px 0px rgb(255, 46, 46),
    -6px -6px 0px rgb(0, 217, 255);
-    border-radius: 100%;
-    width: 500px;
-    height: 500px;
     cursor: pointer;
-    
+    clip-path: circle();
 }
     
 
 .toktak{
-
     color: rgb(0, 0, 0);
     text-align: center;
     font-family:sans-serif;
@@ -31,3 +27,4 @@
     drop-shadow(8px 8px rgb(255, 58, 58))
     drop-shadow(-8px -8px rgb(114, 255, 255));
 }
+
